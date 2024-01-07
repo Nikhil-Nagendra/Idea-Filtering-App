@@ -1,3 +1,6 @@
+import streamlit as st
+import re
+
 st.title("Idea Filtering App")
 
 text_input = st.text_area("Enter your idea", height=200)
